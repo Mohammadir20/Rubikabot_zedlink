@@ -39,7 +39,6 @@ async def broadcast_command(bot_obj: Robot, message: Message):
             success_count += 1
         except Exception as e:
             failed_groups.append(str(chat_id))
-            print("{e}")
 
     result_text = f"ارسال پیام همگانی تمام شد.\n\n"
     result_text += f"📊 آمار:\n"
