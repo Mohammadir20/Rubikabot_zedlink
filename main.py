@@ -1,8 +1,7 @@
-
 from rubka.asynco import Robot, Message, filters
 from typing import Dict, Set
 
-bot = Robot("token_soma")
+bot = Robot("token_shoma")
 chat_set: Set[int] = set()
 owner = "guid_shoma"
 
